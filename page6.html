@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      background: url('705a5a51-7be9-4a5d-a6c8-4934d7bc5a29.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #2a9aa5;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+      height: 100vh;
+      background-color: rgba(255, 255, 255, 0.9); /* semi-transparent background */
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .form-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .form-box input[type="file"] {
+      display: block;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .form-box .captcha {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+    }
+
+    .form-box .captcha input {
+      margin-right: 10px;
+    }
+
+    .form-box button {
+      background-color: #2a9aa5;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-box button:hover {
+      background-color: #217e8b;
+    }
+
+    .disclaimer {
+      font-size: 12px;
+      margin-top: 20px;
+      color: #444;
+    }
+
+    .disclaimer em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Resume</h1>
+    <p>View the best fit job opening for you. We don't save your details till you apply.</p>
+    <div class="form-box">
+      <div class="captcha">
+        <input type="checkbox" id="not-robot">
+        <label for="not-robot">I'm not a robot</label>
+      </div>
+      <input type="file" name="resume" accept=".pdf,.doc,.docx">
+      <button>Upload</button>
+      <div class="disclaimer">
+        <p><strong>Disclaimer:</strong><br>
+          Your resume will be used only to recommend the relevant job openings based on your job profile.
+          <em>Kindly be informed that Infosys does not store your resume for any future purpose.</em><br>
+          We recommend that you do not upload scanned, password protected resumes as we use AI tools to find relevant jobs for a profile and such resumes do not get extracted by AI tools.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

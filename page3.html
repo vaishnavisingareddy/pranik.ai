@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranik AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Lato&display=swap');
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #ffffff;
+    }
+
+    .ibm {
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+  </style>
+</head>
+<body class="px-6 py-12 flex flex-col items-center gap-12">
+
+  <!-- Top Section -->
+  <section class="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-8">
+    <!-- Text -->
+    <div class="max-w-[497px]">
+      <h1 class="text-[#46B3B9] text-[40px] md:text-[48px] font-normal ibm leading-snug">
+        A Health<br />Companion for<br />Everyone
+      </h1>
+      <p class="text-[#1E1E1E] mt-4 text-[16px] md:text-[18px] leading-[28px]">
+        At Pranik AI, we’re building an intelligent, always-available healthcare assistant —
+        a bridge between modern medical knowledge and the millions who lack access to timely care.
+      </p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="relative w-[500px] h-[300px]">
+      <!-- Left oval -->
+      <div class="absolute top-0 left-0 w-[323px] h-[385px] rounded-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center">
+        <img src="page3-1.png" alt="Nurse" class="w-[220px]">
+      </div>
+      <!-- Right oval -->
+      <div class="absolute top-[20px] left-[225px] w-[323px] h-[385px] rounded-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center z-10">
+        <img src="page3-2.jpg" alt="Checklist" class="w-[220px]">
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Feature Box with gradient border and rounded corners -->
+  <div class="w-[1312px] p-[2px] rounded-[40px] bg-gradient-to-r from-[#46B3B9] to-[#9EFAFF]">
+    <div class="h-[325px] bg-[#E7FEFF] rounded-[38px] p-[64px] backdrop-blur-[4px]">
+      <div class="flex flex-col md:flex-row justify-between gap-[8px]">
+
+        <!-- AI Doc -->
+        <div class="flex flex-col gap-4 w-[533px]">
+          <div class="flex flex-col items-start gap-2">
+            <div class="text-3xl"> 🩷 </div>
+            <h3 class="text-[#0D6165] text-[32px] font-medium font-['IBM Plex Sans'] leading-[100%] w-[506px]">
+              AI Doc
+            </h3>
+          </div>
+          <p class="text-[#1E1E1E] font-[Lato] text-[24px] font-normal leading-[100%] w-[533px]">
+            Pranik will enable anyone to talk with an AI doctor to receive trusted medical advice — 24/7, 365 days a year.
+          </p>
+        </div>
+
+        <!-- Primary Health Care -->
+        <div class="flex flex-col gap-4 w-[533px]">
+          <div class="flex flex-col items-start gap-2">
+            <div class="text-3xl"> 🩷 </div>
+            <h3 class="text-[#0D6165] text-[32px] font-medium font-['IBM Plex Sans'] leading-[100%] w-[506px]">
+              Primary Health Care
+            </h3>
+          </div>
+          <p class="text-[#1E1E1E] font-[Lato] text-[24px] font-normal leading-[100%] w-[533px]">
+            Pranik AI is democratizing access to primary healthcare, empowering individuals, and bringing care available for everyone.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('page1.png');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Logo top-left */
+.logo-container {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 36px;
+}
+
+.logo-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #46B2BC;
+}
+
+/* Center page content */
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main heading */
+.main-heading {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #46B3B9;
+  max-width: 1130px;
+  margin: 0;
+}
+
+/* Subtext */
+.subtext {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #06040A;
+  margin: 20px 0;
+  max-width: 632px;
+}
+
+/* Button */
+.primary-btn {
+  background-color: #46B3B9;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 24px 56px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #3aa3a9;
+}
+
+/* Frame 2 Styling */
+.frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #06040A;
+}
+
+.frame-2 .dot {
+  width: 8px;
+  height: 8px;
+  background-color: #F5B1B0;
+  border-radius: 50%;
+  display: inline-block;
+}

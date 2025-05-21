@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranik AI</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .page2-section {
+      background-image: url('page2.png');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .logo-container {
+      position: absolute;
+      top: 30px;
+      left: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-img {
+      height: 36px;
+    }
+
+    .logo-text {
+      font-weight: 400;
+      font-size: 30px;
+      letter-spacing: -0.04em;
+      color: #46B2BC;
+    }
+
+    .overlay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .main-heading {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 400;
+      font-size: 80px;
+      letter-spacing: -0.03em;
+      color: #46B3B9;
+      max-width: 1130px;
+      margin: 0;
+    }
+    .spaced-section {
+  margin-top: 70px;   
+  margin-bottom: 70px; 
+}
+
+
+    .subtext {
+      font-weight: 600;
+      font-size: 24px;
+      color: #06040A;
+      margin: 20px 0;
+      max-width: 632px;
+    }
+
+    .primary-btn {
+      background-color: #46B3B9;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      padding: 24px 56px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .primary-btn:hover {
+      background-color: #3aa3a9;
+    }
+
+    .frame-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin: 20px 0;
+      font-size: 20px;
+      color: #06040A;
+    }
+
+    .frame-2 .dot {
+      width: 8px;
+      height: 8px;
+      background-color: #F5B1B0;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .ibm {
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Page 2 Section -->
+<section class="page2-section">
+  <div class="logo-container">
+    <img src="logo.png" alt="Pranik AI company logo" class="logo-img">
+    <span class="logo-text">Pranik AI</span>
+  </div>
+
+  <div class="overlay">
+    <h1 class="main-heading">Democratizing Quality Healthcare</h1>
+    <div class="frame-2">
+      <span>Accessible</span>
+      <span class="dot"></span>
+      <span>Inclusive</span>
+      <span class="dot"></span>
+      <span>Anytime</span>
+      <span class="dot"></span>
+      <span>Anywhere</span>
+    </div>
+    <p class="subtext">AI-powered healthcare advice</p>
+    <a href="#apply-section" class="primary-btn">Join the team</a>
+  </div>
+</section>
+
+<section class="spaced-section">
+<!-- Page 3 Section -->
+<section class="px-6 py-12 flex flex-col items-center gap-12 bg-white">
+  <div class="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-8">
+    <div class="max-w-[497px]">
+      <h1 class="text-[#46B3B9] text-[40px] md:text-[48px] font-normal ibm leading-snug">
+       Primary Health Care
+      </h1>
+      <p class="text-[#1E1E1E] mt-4 text-[16px] md:text-[18px] leading-[28px]">
+        At Pranik AI, we’re building an intelligent, always-available healthcare assistant — a bridge between modern medical knowledge and the millions who lack access to timely care.
+      </p>
+    </div>
+   
+    <!-- <div class="relative w-[500px] h-[400px]">
+ 
+  <div class="absolute top-[-10px] left-0 w-[323px] h-[385px] rounded-t-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center z-0">
+    <img src="page3-1.png" alt="Healthcare provider" class="w-[220px]">
+  </div>
+
+
+  <div class="absolute top-[30px] left-[220px] w-[323px] h-[385px] rounded-t-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center z-10">
+    <img src="page3-2.jpg" alt="Medical checklist" class="w-[220px]">
+  </div>
+</div> -->
+<div class="relative w-[500px] h-[400px]">
+  <!-- First image, slightly higher -->
+  <img src="page3-1.png" 
+       alt="Healthcare provider" 
+       class="absolute top-[-10px] left-0 w-[322.67px] h-[384.65px] rounded-t-full shadow-md object-cover z-0" />
+
+  <!-- Second image, slightly lower and overlapping -->
+  <img src="page3-2.jpg" 
+       alt="Medical checklist" 
+       class="absolute top-[100px] left-[210px] w-[322.67px] h-[384.65px] rounded-t-full shadow-md object-cover z-10" />
+</div>
+
+
+
+  </div>
+
+
+</section>
+</section>
+
+<!-- Join Pranik AI Section -->
+<section id="apply-section" class="min-h-screen flex items-center justify-center p-10 bg-white overflow-hidden relative">
+  <div class="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+    <div class="flex flex-col justify-between h-full">
+      <h1 class="text-[64px] ibm font-normal text-[#46B3B9] leading-[100%]">Pranik AI</h1>
+      <div class="flex-grow flex items-end justify-center mt-8">
+        <img src="logo2.png" alt="Full Pranik AI logo" class="w-full max-w-[1400px]">
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-6 max-w-[533px]">
+  <!-- Title -->
+  <h2 class="text-[32px] leading-[32px] font-medium font-ibm text-[#0D6165]">
+    We’re assembling a passionate, diverse team of engineers, medical experts, designers, and dreamers to democratize healthcare
+  </h2>
+
+  <!-- Paragraph -->
+  <p class="text-[24px] leading-[32px] font-normal font-lato text-[#1E1E1E]">
+    We’re moving fast. If you believe technology can close the healthcare gap, we want to hear from you.
+  </p>
+
+  <!-- Bullet Section -->
+  <div class="text-[24px] leading-[32px] font-medium font-lato text-[#303030] flex flex-col gap-4">
+    <div>
+      <p>• Work at the intersection of AI, healthcare, and social impact</p>
+      <hr class="border-[#767676] my-2 w-full">
+    </div>
+    <div>
+      <p>• Solve real-world challenges at national scale</p>
+      <hr class="border-[#767676] my-2 w-full">
+    </div>
+    <div>
+      <p>• Be part of an ethical, privacy-first AI initiative</p>
+    </div>
+  </div>
+
+  <!-- CTA Button -->
+  <a class="mt-4 w-fit px-6 py-2 rounded-full text-white bg-[#46B3B9] text-lg font-medium hover:bg-[#3aa3a9] transition">
+    Send your resumes to careers@pranik.ai
+  </a>
+</div>
+
+
+
+  </div>
+</section>
+
+
+<section class="py-16 px-6 bg-white flex flex-col items-center gap-16">
+  <div class="flex flex-col md:flex-row items-center justify-center gap-12 max-w-[1140px] w-full">
+    <div class="max-w-[604px] text-[#46B3B9] text-[64px] font-['IBM Plex Sans'] leading-[100%] tracking-[0.01em] text-left">
+      Let’s build with care,<br />
+      for Health Care
+    </div>
+    <div class="relative w-[250px] h-[250px] min-w-[250px]">
+      <img src="heart.jpg" alt="Stethoscope in shape of heart" class="absolute top-0 left-0 w-[200px] h-[200px] rounded-full object-cover z-10">
+      <img src="doc.png" alt="Doctor talking on phone" class="absolute bottom-0 right-0 w-[150px] h-[150px] rounded-full object-cover border-4 border-white z-20">
+    </div>
+  </div>
+
+  <div class="w-full max-w-[1140px] bg-[#FFF3EC] rounded-[40px] py-10 px-6 flex flex-col md:flex-row justify-around gap-10 text-center">
+    <!-- Privacy First -->
+    <div class="flex flex-col items-center gap-4 max-w-[200px]">
+      <div class="bg-white rounded-full p-4 shadow-md">
+        <!-- <span class="material-icons text-3xl text-[#0D6165]">security</span> -->
+         <svg width="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M21.8 17v-1.5a2.818 2.818 0 0 0-5.6 0V17a1.29 1.29 0 0 0-1.2 1.2v3.5a1.31 1.31 0 0 0 1.2 1.3h5.5a1.31 1.31 0 0 0 1.3-1.2v-3.5a1.31 1.31 0 0 0-1.2-1.3zm-4.3-1.5a1.375 1.375 0 0 1 1.5-1.3a1.375 1.375 0 0 1 1.5 1.3V17h-3z" fill="currentColor"/><path d="M24 11V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h11v-2H2V2h20v9" fill="currentColor"/><path d="M6 4H4v2h2V4z" fill="currentColor"/><path d="M20 4H8v2h12V4z" fill="currentColor"/><path d="M13 16H8v2h5v-2z" fill="currentColor"/><path d="M6 16H4v2h2v-2z" fill="currentColor"/><path d="M10 8H8v2h2V8z" fill="currentColor"/><path d="M20 8h-8v2h8V8z" fill="currentColor"/><path d="M14.808 12H12v2h2.2v-.5a2.26 2.26 0 0 1 .608-1.5z" fill="currentColor"/><path d="M10 12H8v2h2v-2z" fill="currentColor"/></svg>
+      </div>
+      <h3 class="text-[#0D6165] text-[32px] font-medium leading-[100%]">Privacy First</h3>
+      <p class="text-[#1E1E1E] text-[16px]">We’re committed to protecting every user’s data.</p>
+    </div>
+
+    <!-- Inclusive -->
+    <div class="flex flex-col items-center gap-4 max-w-[200px]">
+      <div class="bg-white rounded-full p-4 shadow-md">
+        <svg width="32" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 1 0 0 4a2 2 0 0 0 0-4zM2 5.5a3.5 3.5 0 1 1 5.898 2.549a5.507 5.507 0 0 1 3.034 4.084a.75.75 0 1 1-1.482.235a4.001 4.001 0 0 0-7.9 0a.75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05A3.49 3.49 0 0 1 2 5.5zM11 4a.75.75 0 1 0 0 1.5a1.5 1.5 0 0 1 .666 2.844a.75.75 0 0 0-.416.672v.352a.75.75 0 0 0 .574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 1 0 1.434-.44a5.01 5.01 0 0 0-2.56-3.012A3 3 0 0 0 11 4z" fill="currentColor"/></svg>
+      </div>
+      <h3 class="text-[#0D6165] text-[32px] font-medium leading-[100%]">Inclusive</h3>
+      <p class="text-[#1E1E1E] text-[16px]">Healthcare in every language, reaches every community.</p>
+    </div>
+
+    <!-- Ethical AI -->
+    <div class="flex flex-col items-center gap-4 max-w-[200px]">
+      <div class="bg-white rounded-full p-4 shadow-md">
+       <img src="verify.png"/>
+      </div>
+      <h3 class="text-[#0D6165] text-[32px] font-medium leading-[100%]">Ethical AI</h3>
+      <p class="text-[#1E1E1E] text-[16px]">Our AI will be built responsibly, under guidance from experts.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-[#E4FCFE] py-8 font-lato">
+  <div class="max-w-7xl mx-auto px-6 border-t border-[#D9F4F7] pt-6 flex flex-col md:flex-row justify-between items-center">
+    <div class="flex flex-col items-start">
+      <!-- Logo and name -->
+      <div class="flex items-center gap-2">
+        <img src="logo2.png" alt="Pranik AI Logo in footer" class="h-9 w-auto">
+        <span class="text-[30px] font-normal leading-[100%] tracking-[-0.04em] text-[#0D6165]">Pranik AI</span>
+      </div>
+      <!-- Copyright -->
+      <p class="text-xs text-[#1E1E1E] mt-1 ml-11">© 2025 Pranik AI</p>
+    </div>
+    
+    <!-- CTA -->
+    <div class="flex items-center gap-4 mt-6 md:mt-0">
+      <p class="italic text-base text-[#0D6165] whitespace-nowrap">Ready to create impact?</p>
+      <a href="#apply-section" class="bg-[#2DA4AB] text-white text-sm px-5 py-2 rounded-full hover:bg-[#24959b] transition">
+        Join the team
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
